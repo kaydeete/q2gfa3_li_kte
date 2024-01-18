@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cedarville+Cursive&family=Junge&family=Rubik+Vinyl&family=Silkscreen&family=Updock&display=swap');
+
+/* applied to all pages */
+
+body {
+    background-color: #f4f2e7;
+}
+
+/* header */
+nav {
+    background-color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.a {
+    height: 5vh;
+    width: 10vw;
+}
+
+.a a{
+    font-size: 10px;
+    text-align: center;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.a:hover {
+    background-color: #E8E8E8;
+}
+
+/* page 1 */
+
+main p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #fa3a99;
+}
+
+/* footer */
+footer {
+    background-color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
