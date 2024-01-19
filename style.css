@@ -3,7 +3,7 @@
 }
 
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cedarville+Cursive&family=Junge&family=Rubik+Vinyl&family=Silkscreen&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* applied to all pages */
 
@@ -14,8 +14,7 @@ body {
 /* header */
 nav {
     background-color: white;
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
+    font-family: 'Anton', sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,7 +44,10 @@ nav {
     color: black;
 }
 
-nav h1 {margin-right: 55vw;}
+nav p {
+    margin-right: 55vw;
+    font-size: larger;
+}
   
 .dropdown:hover .dropdown-content {
     display: block;
