@@ -16,7 +16,6 @@ nav {
     background-color: white;
     font-family: "Anton", sans-serif;
     font-weight: 400;
-    font-style: normal;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,9 +41,10 @@ nav {
 }
 
 .a a{
-    font-size: 10px;
-    text-align: center;
+    font-size: 15px;
 }
+
+nav h1 {margin-right: 55vw;}
   
 .dropdown:hover .dropdown-content {
     display: block;
@@ -62,11 +62,32 @@ main p {
     color: #fa3a99;
 }
 
+#video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index:-1; 
+}
+
 /* footer */
+
 footer {
     background-color: white;
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+.icon {
+    background: url(media/sprite.png) no-repeat;
+	width: 66px;
+	height: 66px;
+}
+
+#twt {background-position: -66px -72px;}
+#ig {background-position: -290px -221px;}
+#fb {background-position: -439px -146px;}
